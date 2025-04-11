@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AppSecret Proof Generator
 
 A TypeScript web application that generates appsecret_proof using HMAC-SHA256 hashing algorithm.
@@ -34,3 +35,7 @@ npm run build
 3. Click "Generate" to create the appsecret_proof
 
 The generated hash will be displayed in the result section.
+=======
+# appsecret-proof-generator
+A TypeScript web application to generate appsecret_proof using HMAC-SHA256
+>>>>>>> c1d2e836f73d61a76329152b0508df64fe9f9fb9
