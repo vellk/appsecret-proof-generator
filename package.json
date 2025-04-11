@@ -1,0 +1,18 @@
+{
+  "name": "appsecret-proof-generator",
+  "version": "1.0.0",
+  "description": "A web application to generate appsecret_proof using TypeScript",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "@types/crypto-js": "^4.1.1"
+  }
+}

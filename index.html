@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppSecret Proof Generator</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>AppSecret Proof Generator</h1>
+      <div class="input-container">
+        <div>
+          <label for="accessToken">Access Token:</label>
+          <input type="text" id="accessToken" placeholder="Enter access token">
+        </div>
+        <div>
+          <label for="appSecret">App Secret:</label>
+          <input type="text" id="appSecret" placeholder="Enter app secret">
+        </div>
+        <button id="generate">Generate AppSecret Proof</button>
+      </div>
+      <div class="result-container">
+        <h3>Result:</h3>
+        <pre id="result"></pre>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px 0;
+      }
+      .input-container div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      input {
+        padding: 8px;
+        width: 100%;
+        font-size: 16px;
+      }
+      button {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      pre {
+        background-color: #f5f5f5;
+        padding: 15px;
+        border-radius: 4px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+      }
+    </style>
+  </body>
+</html>
