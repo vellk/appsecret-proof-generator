@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AppSecret Proof Generator
 
 A TypeScript web application that generates appsecret_proof using HMAC-SHA256 hashing algorithm.
